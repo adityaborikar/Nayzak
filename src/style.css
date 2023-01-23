@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.syne-font {
+  font-family: "Syne", sans-serif;
+}
+.progress-accent::-moz-progress-bar {
+  background: violet;
+}
+.progress-accent::-webkit-progress-value {
+  background: violet;
+}
+.progress-accent {
+  color: violet;
+}
+html {
+  scroll-behavior: smooth;
+  @media (min-width: 640px);
+}
